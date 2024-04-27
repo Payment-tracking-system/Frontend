@@ -1,0 +1,2 @@
+export const inputStyles: string =
+    'w-full rounded px-2 py-3 text-lg dark:bg-root-greyDark bg-root-greyLight transition border-root-violet focus:border focus:shadow-[0px_0px_15px_rgba(106,0,172,0.5)] outline-none'
