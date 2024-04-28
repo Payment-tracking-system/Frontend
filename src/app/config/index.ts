@@ -14,6 +14,6 @@ export const __APPLICATION__: __APPLICATION_CONFIG__ = {
     routes: {
         notfound: '*',
         bills_form: '/',
-        bills_list: '/bills'
+        bills_list: '/bills',
     }
 }

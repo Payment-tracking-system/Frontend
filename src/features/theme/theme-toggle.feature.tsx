@@ -22,7 +22,7 @@ const ThemeToggle: FunctionComponent = () => {
   }, [!isDark?.isDark]);
 
   return(
-    <Button color="primari" onClick={handleThemeToggle}>
+    <Button className='w-[58px] justify-end' color="primari" onClick={handleThemeToggle}>
       {isDark?.isDark ? <FaSun className="transition hover:text-root-violet" size={30} /> : <FaMoon className="transition hover:text-root-violet" size={30} />}
     </Button>
   )

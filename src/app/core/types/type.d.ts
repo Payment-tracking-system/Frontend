@@ -1,15 +1,17 @@
 import {ReactNode} from "react";
 import ReactDOM from "react-dom/client";
 
-type AppComponent = () => ReactNode;
+type ApplicationComponent = () => ReactNode;
 
-type Applications = {
-    AppComponent: AppComponent;
-    AppLoading: AppComponent;
+interface Applications {
+    ApplicationDevComponent: ApplicationComponent;
+    ApplicationComponent: ApplicationComponent;
+    LoadingComponent: ApplicationComponent;
 }
 
-type CoreConfiguration = {
-    AppDOMNode: () => HTMLDivElement;
-    AppComponent: AppComponent;
-    AppReactDOM: ReactDOM.Root | null;
-};
+interface Configuration {
+    ApplicationDOMNode: () => HTMLDivElement;
+    ApplicationDevComponent: ApplicationComponent;
+    ApplicationComponent: ApplicationComponent;
+    ApplicationReactDOM: ReactDOM.Root | null;
+}

@@ -10,7 +10,7 @@ export const HeaderWidget: FunctionComponent = () => {
     }
 
     return (
-        <div className="p-2 flex items-center justify-between z-10 bg-root-greyLight dark:bg-root-greyDark">
+        <div className="px-3 py-2 flex items-center justify-between z-10 bg-root-greyLight dark:bg-root-greyDark">
             <div onClick={homeNavigate} className="flex cursor-pointer items-center flex-col">
                 <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Check</span>
                 <span>bills</span>
